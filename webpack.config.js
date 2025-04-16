@@ -69,7 +69,7 @@ const rendererConfig = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
-    filename: 'renderer.js',
+    filename: 'index.js',
     path: path.resolve(__dirname, 'dist/renderer'),
   },
   plugins: [
